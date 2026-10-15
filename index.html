@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joel Joan Castillo Ramos | Portfolio DAW</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Fuentes Google: Inter y Fira Code (toque informático) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Fondos luminosos decorativos -->
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <!-- HEADER / NAVBAR -->
+    <header class="navbar container">
+        <div class="logo">
+            <span class="logo-icon"><i class="fa-solid fa-terminal"></i></span>
+            <span class="logo-text">Joel<span class="highlight">Dev</span></span>
+        </div>
+        <nav class="nav-links">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#about">Sobre mí</a>
+            <a href="#learning">Aprendizaje</a>
+            <a href="#goals">Objetivos</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+        <div class="social-icons">
+            <!--<a href="http://w3schools.com/" target="_blank" title="W3Schools"><i class="fa-solid fa-code"></i></a>-->
+            <a href="https://github.com" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- SECCIÓN HERO -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="terminal-tag">&gt; Hola_mundo, soy</p>
+                <h1>Joel Joan <br><span class="highlight">Castillo Ramos</span></h1>
+                <p class="subtitle">Estudiante de DAW 2º en Mataró (Institut Thos i Codina)</p>
+                <a href="#about" class="btn-primary">Conóceme</a>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-circle">
+                    <!-- Tu foto en la carpeta img/ -->
+                    <img src="./img/img.png" alt="Joel Joan Castillo Ramos">
+                </div>
+            </div>
+        </section>
+
+        <!-- 3 TARJETAS DE HABILIDADES / INTERESES (Estilo Foliox) -->
+        <section class="features-grid">
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <h3>Stack Tecnológico</h3>
+                <p>Me encanta programar y construir soluciones web utilizando tecnologías como <strong>HTML, CSS,
+                        JavaScript, Java y React</strong>.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fa-solid fa-book-open-reader"></i>
+                </div>
+                <h3>Aprendizaje Continuo</h3>
+                <p>Actualmente ampliando mis conocimientos en <strong>React, Node.js y Python</strong>, apoyándome en
+                    documentación como <em>w3schools.com</em>.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <h3>Foco y Dedicación</h3>
+                <p>Mi gran meta para este curso es finalizar con éxito <strong>2º de DAW</strong> y darlo todo para
+                    <strong>ganar el iFest</strong>.
+                </p>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SOBRE MÍ -->
+        <section id="about" class="about-section">
+            <div class="section-header">
+                <span class="section-subtitle">Sobre Mí</span>
+                <h2>Un Desarrollador Apasionado <br>Al Que Le Encanta Programar</h2>
+            </div>
+
+            <div class="about-content">
+                <!-- Columna izquierda: composición de fotos e insignias -->
+                <div class="about-images">
+                    <div class="floating-badge">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <!-- Imagen principal del Sobre Mí: Foto de Barcelona -->
+                    <div class="main-about-img">
+                        <img src="https://img.rtve.es/v/868498/" alt="Foto de Barcelona"
+                            onerror="this.src='https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=600&q=80'">
+                    </div>
+                    <!-- Imagen secundaria superpuesta: Tu instituto en local -->
+                    <div class="secondary-about-img">
+                        <img src="./img/Thos_i_Codina.jpg" alt="Institut Thos i Codina">
+                    </div>
+                    <div class="experience-Counter">
+                        <span class="exp-number">2º</span>
+                        <span class="exp-text">Año de<br>Grado Superior DAW</span>
+                    </div>
+                </div>
+
+                <!-- Columna derecha: Texto y tabla de datos personales -->
+                <div class="about-text">
+                    <h3>¿Quién soy yo?</h3>
+                    <p>
+                        Mi nombre es <strong>Joel Joan Castillo Ramos</strong>, soy estudiante de Desarrollo de
+                        Aplicaciones Web (DAW) de segundo año en el instituto <em>Thos i Codina</em> de Mataró. Me gusta
+                        mucho programar y soy un apasionado de la tecnología.
+                    </p>
+                    <blockquote class="fav-quote">
+                        "Another day another world" — <span>No te preocupes si un proyecto no acaba de funcionar, mañana
+                            seguramente tendrás otra idea mejor.</span>
+                    </blockquote>
+
+                    <!-- Caja de datos en 2 columnas -->
+                    <div class="info-box">
+                        <div class="info-col">
+                            <div class="info-item">
+                                <span class="info-label">Nombre</span>
+                                <span class="info-value">Joel Joan Castillo Ramos</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Instituto</span>
+                                <span class="info-value">INS Thos i Codina</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Top Películas</span>
+                                <span class="info-value">Marte, Project Hail Mary, Acero puro</span>
+                            </div>
+                        </div>
+                        <div class="info-col">
+                            <div class="info-item">
+                                <span class="info-label">Ubicación</span>
+                                <span class="info-value">Mataró, Barcelona</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Estudios</span>
+                                <span class="info-value">2º DAW</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Música Favorita</span>
+                                <span class="info-value">Melendi, Estopa, Fito &amp; Fitipaldis</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--<a href="http://w3schools.com/" target="_blank" class="btn-primary">Ver Recursos (W3Schools)</a>-->
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN EXTRA DEL MARKDOWN: APRENDIZAJE, CÓDIGO Y CHECKLIST -->
+        <section id="learning" class="dev-extra-section">
+            <div class="dev-grid">
+                <!-- Tabla de tecnologías que estás aprendiendo -->
+                <div class="dev-card">
+                    <h3><i class="fa-solid fa-graduation-cap highlight"></i> Tecnologías en aprendizaje</h3>
+                    <table class="tech-table">
+                        <thead>
+                            <tr>
+                                <th>Tecnología</th>
+                                <th>Nivel actual</th>
+                                <th>Recurso</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>React</strong></td>
+                                <td><span class="badge">Principiante</span></td>
+                                <td><a href="https://www.udemy.com/course/react-cero-experto" target="_blank">Curso de
+                                        React <i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Node.js</strong></td>
+                                <td><span class="badge">Principiante</span></td>
+                                <td><a href="https://beta.docs.nodejs.org" target="_blank">Node.js Docs <i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Python</strong></td>
+                                <td><span class="badge">Principiante</span></td>
+                                <td><a href="https://es.python.org" target="_blank">Python España <i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Terminal con tu snippet de Python y Checklist -->
+                <div id="goals" class="dev-card">
+                    <h3><i class="fa-solid fa-terminal highlight"></i> Snippet &amp; Checklist</h3>
+
+                    <div class="code-window">
+                        <div class="window-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="filename">saludo.py</span>
+                        </div>
+                        <pre><code><span class="kw">def</span> <span class="fn">sayHi</span>(name):
+    <span class="kw">return</span> <span class="str">f"Hola, {name}!"</span>
+
+<span class="fn">print</span>(sayHi(<span class="str">"Joel Joan"</span>))</code></pre>
+                    </div>
+
+                    <div class="checklist">
+                        <h4>Checklist de objetivos (Rama activa)</h4>
+                        <ul>
+                            <li class="done"><i class="fa-solid fa-square-check"></i> <s>Configurar el entorno de
+                                    desarrollo</s></li>
+                            <li class="done"><i class="fa-solid fa-square-check"></i> Crear el perfil en Markdown y Web
+                            </li>
+                            <li><i class="fa-regular fa-square"></i> Entregarlo en el Moodle a tiempo</li>
+                            <li><i class="fa-regular fa-square"></i> Relajarse y ver una película</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4 TARJETAS DE ESTADÍSTICAS INFERIORES -->
+        <section class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-num">4+</span>
+                <span class="stat-label">Tecnologías<br>Favoritas</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-num">3</span>
+                <span class="stat-label">Lenguajes en<br>Aprendizaje</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-num">2º</span>
+                <span class="stat-label">Curso de<br>DAW</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-num">#1</span>
+                <span class="stat-label">Objetivo:<br>Ganar iFest</span>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <p>&lt;/&gt; Desarrollado por <strong>Joel Joan Castillo Ramos</strong> | Estamos en la nueva rama 🚀</p>
+    </footer>
+
+</body>
+
+</html>
